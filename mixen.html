@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pannenkoeken maker</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <main>
+                <h1>Mix het beslag</h1>
+                <h2>Klik en sleep de garde 5 keer heen en weer</h2>
+               
+                <!-- image waarmee geïnteracteerd wordt (sleepbaar) -->
+
+                <img id="mix" src="images/mix.png" alt="mix">
+                
+                <!-- audiofragmenten die worden afgespeeld tijdens de interactie -->
+
+                <audio src="audio/plop_geluid.wav" id="plop"></audio>
+                <audio src="audio/achtergrondmuziek.mp3" id="achtergrondmuziek"></audio>
+                <audio src="audio/trompet_geluid.mp3" id="trompetgeluid"></audio>
+               
+                <!-- button om de muziek aan of uit te zetten -->
+                <button id="button">Muziek</button>
+
+                <!-- link naar de volgende pagina -->
+                
+                <a id="laterverschijnen" href="scheppen.html" hidden>Bakken</a>
+        </main>
+    </div>
+
+    <!-- class "hidden" om images te verstoppen -->
+
+    <div class="hidden"></div>
+
+    <script src="script/mixen.js"></script>
+</body>
+</html>

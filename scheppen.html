@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pannenkoeken maker</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="box">
+        <main>
+                <h1>Bak de pannenkoeken</h1>
+                <h2>Klik op de kom. Sleep de lepel naar de pan en vul het met 3 pannenkoeken.</h2>
+
+                <img id="pan" src="images/pan.png" alt="pan">
+
+                 <!-- images waarmee geïnteracteerd wordt (sleepbaar) -->
+         
+                <img id="kombeslag" src="images/kombeslag.png" alt="kombeslag">
+                <img id="lepel" src="images/lepel.png" alt="lepel">
+                <img id="lepelbeslag" src="images/lepelbeslag.png" alt="lepelbeslag" hidden>
+
+                <!-- images die tevoorschijn komen nadat er is gesleept -->
+
+                <img id="ongekooktepannenkoek1" src="images/ongekooktepannenkoek.png" alt="ongekooktepannenkoek" hidden>
+                <img id="ongekooktepannenkoek2" src="images/ongekooktepannenkoek.png" alt="ongekooktepannenkoek" hidden>
+                <img id="ongekooktepannenkoek3" src="images/ongekooktepannenkoek.png" alt="ongekooktepannenkoek" hidden>
+               
+                 <!-- audiofragmenten die worden afgespeeld tijdens de interactie -->
+
+                <audio src="audio/bak_geluid.wav" id="bak"></audio>
+                <audio src="audio/plop_geluid.wav" id="plop"></audio>
+                <audio src="audio/achtergrondmuziek.mp3" id="achtergrondmuziek"></audio>
+                
+                  <!-- button om de muziek aan of uit te zetten -->
+
+                <button id="button">Muziek</button>
+
+                  <!-- link naar de volgende pagina -->
+
+                <a id="laterverschijnen" href="opscheppen-pan.html" hidden>Bord vullen</a>
+        </main>
+
+    </div>
+
+    <!-- class "hidden" om images te verstoppen -->
+
+    <div class="hidden"></div>
+
+        <script src="script/scheppen.js"></script>
+</body>
+</html>

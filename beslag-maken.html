@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pannenkoeken maker</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+
+ 
+<body>
+    <div class="box">  
+         <main>
+                <h1>Beslag maken</h1>
+                <h2>Sleep de ingrediënten naar de kom</h2>
+
+                  <!-- images waarmee geïnteracteerd wordt (sleepbare ingrediënten) -->
+
+                <img id="bloem" src="images/bloem.png" alt="bloem">
+
+                <img id="zout" src="images/zout.png" alt="zout">
+
+                <img id="melk" src="images/melk.png" alt="melk">
+
+                <img id="eieren" src="images/eieren.png" alt="eieren">
+
+                <img id="boter" src="images/boter.png" alt="boter">
+            
+                <img id="kom" src="images/kom.png" alt="kom">
+
+                <!-- images die tevoorschijn komen nadat er is gesleept -->
+
+                <img id="bloembeslag" src="images/bloem-beslag.png" alt="bloembeslag" hidden>
+                <img id="melkbeslag" src="images/melk-beslag.png" alt="melkbeslag" hidden>
+                <img id="eibeslag" src="images/ei-beslag.png" alt="eibeslag" hidden>
+                <img id="boterbeslag" src="images/boter-beslag.png" alt="boterbeslag" hidden>
+
+                <!-- audiofragmenten die worden afgespeeld tijdens de interactie -->
+
+                <audio src="audio/korrel_geluid.wav" id="korrelgeluid"></audio>
+                <audio src="audio/ei_geluid.wav" id="eigeluid"></audio>
+                <audio src="audio/melk_geluid.wav" id="melkgeluid"></audio>
+                <audio src="audio/boter_geluid.wav" id="botergeluid"></audio>
+                <audio src="audio/achtergrondmuziek.mp3" id="achtergrondmuziek"></audio>
+                
+                <!-- button om de muziek aan of uit te zetten -->
+
+                <button id="button">Muziek</button>
+
+                <!-- link naar de volgende pagina -->
+
+                <a id="laterverschijnen" href="mixen.html" hidden>Mixen</a>
+
+        </main>
+    </div>
+    
+    <!-- class "hidden" om images te verstoppen -->
+
+    <div class="hidden"></div>
+
+    <script src="script/beslag.js"></script>
+</body>
+</html>

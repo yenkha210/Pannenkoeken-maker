@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pannenkoekenmaker</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <main>
+                <h1>Versier de pannenkoeken</h1>
+                <h2>Klik en sleep om de pannenkoeken te versieringen</h2>
+
+                <!-- p tag met id dat de naam van de verassing weergeeft -->
+
+                <p id="naam"></p>
+
+                <img id="vraagteken" src="images/vraagteken.png" alt="vraagteken">
+                <img id="grijzebord" src="images/grijzebord.png" alt="grijzebord">
+                <img id="etenversieren" src="images/etenversieren.png" alt="etenversieren">
+
+                 <!-- images die te voorschijn komen nadat er is gesleept of geklikt -->
+
+                <img id="stroop" src="images/stroop.png" alt="stroop" hidden>
+                <img id="aardbeisaus" src="images/aardbeisaus.png" alt="aardbeisaus" hidden>
+                <img id="chocoladesaus" src="images/chocoladesaus.png" alt="chocoladesaus" hidden>
+                <img id="aardbeien" src="images/aardbeien.png" alt="aardbeien" hidden>
+                <img id="banaan" src="images/banaan.png" alt="banaan" hidden >
+                <img id="blauwebessen" src="images/blauwebessen.png" alt="blauwebessen" hidden>
+                <img id="discodip" src="images/discodip.png" alt="discodip" hidden>
+                <img id="plakjeboter" src="images/plakjeboter.png" alt="plakjeboter" hidden>
+
+                 <!-- images die willekeurig tevoorschijn komen als je op de verassingknop klikt -->
+
+                <img id="banaankeuze" src="images/banaankeuze.png" alt="banaankeuze" hidden>
+                <img id="chocoladesauskeuze" src="images/chocoladesauskeuze.png" alt="chocoladesauskeuze" hidden>
+                <img id="discodipkeuze" src="images/discodipkeuze.png" alt="discodipkeuze" hidden>
+                <img id="blauwebessenkeuze" src="images/blauwebessenkeuze.png" alt="blauwebessen" hidden>
+               
+                 <!-- images waarmee geïnteracteerd wordt (sleepbare versieringen) -->
+
+                <img id="stroopkeuze" src="images/stroopkeuze.png" alt="stroopkeuze">               
+                <img id="aardbeikeuze" src="images/aardbeikeuze.png" alt="aardbeikeuze">
+                <img id="aardbeisauskeuze" src="images/aardbeisauskeuze.png" alt="aardbeisauskeuze">
+                <img id="boter2" src="images/boter.png" alt="boter2">
+                
+                <!-- button om de verassing elementen op te roepen -->
+
+                <button id="verassing">Verassing</button>
+
+                <!-- audiofragmenten die worden afgespeeld tijdens de interactie -->
+             
+                <audio src="audio/plop_geluid.wav" id="plop"></audio>
+                <audio src="audio/achtergrondmuziek.mp3" id="achtergrondmuziek"></audio>
+
+                  <!-- button om de muziek aan of uit te zetten -->
+                
+                <button id="button">Muziek</button>
+
+                 <!-- link naar de volgende pagina -->
+                 
+                <a href="index.html">Opnieuw</a>
+        </main>
+
+    </div>
+
+    <!-- class "hidden" om images te verstoppen -->
+
+    <div class="hidden"></div>
+
+    <script src="script/versieren.js"></script>
+</body>
+</html>

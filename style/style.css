@@ -1,0 +1,418 @@
+:root{
+    --zwart: #000000;
+    --oranje: #de9134;
+    --wit: #ffffff; 
+    --lichtgrijs: #d3d3d3; 
+}
+
+body{
+    background-color: var(--wit);
+}
+
+h1{
+    text-align: center;
+    font-family:monospace;
+    color: var(--zwart); 
+    margin-top: 3em;
+}
+
+h2{
+    text-align: center;
+    font-family:monospace;
+    color: var(--zwart);   
+}
+
+a{
+    background-color: var(--oranje);
+    color: var(--wit);
+    font-family: arial;
+    padding: 1em;
+    text-decoration: none;
+    border-radius: .3em;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.box{
+    background-color: var(--wit);
+    height: 600px;
+    width: 1200px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 2px var(--lichtgrijs);
+    margin-top: 4em;
+    border: 10px solid var(--lichtgrijs);
+    position: relative;
+}
+
+#beginfoto{
+    margin:auto;
+    max-width: 45vh;
+    position: absolute;
+    left: 440px;
+    bottom: 150px;
+}
+
+#kom{
+    height: 15vh;
+    display: flex;
+    margin: auto;
+    margin-top: 15em;
+}
+
+#zout{
+    height: 10vh;
+    position: absolute;
+    left: 370px;
+    bottom: 300px;
+    cursor:move;
+}
+#boter{
+    height: 10vh;
+    position: absolute;
+    right: 280px;
+    bottom: 150px;
+    cursor:move;
+}
+
+#eieren{
+    height: 7vh;  
+    position: absolute;
+    right: 350px;
+    bottom: 300px;
+    cursor:move;
+}
+
+#melk{
+    height: 10vh;   
+    position: absolute;
+    right: 550px;
+    bottom: 320px;
+    cursor:move;
+}
+
+#bloem{
+    height: 10vh;   
+    position: absolute;
+    left: 280px;
+    bottom: 150px;
+    cursor:move;
+}
+
+#mix{
+    height: 40vh;
+    display: flex;
+    margin: auto;
+    margin-top: 5em;
+    cursor:move;
+} 
+
+#pan{
+    height: 45vh;
+    position: absolute;
+    bottom: 50px;
+    left: 500px;
+}
+#kombeslag{
+    height: 20vh;
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+}
+
+#lepel{
+    height: 17vh;
+    position: absolute;
+    left: 300px;
+    bottom: 250px;
+    cursor:move;
+}
+
+#ongekooktepannenkoek1{
+    height: 7vh;
+    position:absolute; 
+    right: 510px;
+    bottom: 240px;
+}
+
+#ongekooktepannenkoek2{
+    height: 7vh;
+    position:absolute; 
+    right: 600px;
+    bottom: 240px;
+}
+
+#ongekooktepannenkoek3{
+    height: 7vh;
+    position:absolute; 
+    right: 555px;
+    bottom: 300px;
+}
+
+#rozebord{
+    height: 12vh;
+    position: absolute;  
+    right: 200px;
+    bottom: 150px;
+}
+
+#pannenkoek1{
+    height: 7vh;
+    position:absolute; 
+    right: 510px;
+    bottom: 240px;
+    cursor:move;
+}
+
+#pannenkoek2{
+    height: 7vh;
+    position:absolute; 
+    right: 600px;
+    bottom: 240px;
+    cursor:move;
+}
+
+#pannenkoek3{
+    height: 7vh;
+    position:absolute; 
+    right: 555px;
+    bottom: 300px;
+    cursor:move;
+}
+
+#pannenkoek4{
+    height: 7vh;
+    position:absolute; 
+    right: 255px;
+    bottom: 178px;
+    cursor:move;
+}
+
+#pannenkoek5{
+    height: 7vh;
+    position:absolute; 
+    right: 255px;
+    bottom: 190px;
+    cursor:move;
+}
+#pannenkoek6{
+    height: 7vh;
+    position:absolute; 
+    right: 255px;
+    bottom: 202px;
+    cursor:move;
+}
+
+#etenversieren{
+    height: 20vh;
+    position:absolute; 
+    right: 500px;
+    bottom: 50px;  
+}
+
+#stroopkeuze{
+    height: 15vh;
+    position:absolute; 
+    right: 200px;
+    bottom: 150px;  
+    cursor:move;  
+}
+
+#stroop{
+    height: 15vh;
+    position:absolute; 
+    right: 560px;
+    bottom: 85px;   
+}
+
+#discodip{
+    height: 12vh;
+    position:absolute; 
+    left: 555px;
+    bottom: 110px;  
+}
+
+#discodipkeuze{
+    height: 10vh;
+    position:absolute; 
+    left: 260px;
+    bottom: 200px;    
+    cursor:move;
+}
+
+#aardbeien{
+    height: 15vh;
+    position:absolute; 
+    right: 525px;
+    bottom: 90px;  
+}
+
+#grijzebord{
+    height: 10vh;
+    position:absolute; 
+    right: 525px;
+    bottom: 300px;  
+}
+
+#aardbeikeuze{
+    height: 7vh;
+    position:absolute; 
+    right: 560px;
+    bottom: 320px;
+    cursor:move;
+}
+
+#aardbeisauskeuze{
+    height: 15vh;
+    position:absolute; 
+    left: 350px;
+    bottom: 275px;   
+    cursor:move; 
+}
+#aardbeisaus{
+    height: 15vh;
+    position:absolute; 
+    right: 560px;
+    bottom: 85px;   
+}
+
+#chocoladesauskeuze{
+    height: 15vh;
+    position:absolute; 
+    left: 205px;
+    bottom: 150px;   
+    cursor:move; 
+}
+
+#chocoladesaus{
+    height: 15vh;
+    position:absolute; 
+    right: 560px;
+    bottom: 85px;  
+}
+
+#banaankeuze{
+    height: 10vh;
+    position:absolute; 
+    left: 205px;
+    bottom: 160px;   
+    cursor:move;
+}
+#banaan{
+    height: 15vh;
+    position:absolute; 
+    right: 520px;
+    bottom: 80px;   
+}
+
+#blauwebessenkeuze{
+    height: 10vh;
+    position:absolute; 
+    left: 200px;
+    bottom: 160px;   
+    cursor:move;
+}
+
+#blauwebessen{
+    height: 17vh;
+    position:absolute; 
+    right: 550px;
+    bottom: 80px;  
+}
+
+#boter2{
+    height: 12vh;
+    position:absolute; 
+    right: 300px;
+    bottom: 275px;  
+    cursor:move;
+}
+
+#plakjeboter{
+    height: 5vh;
+    position:absolute; 
+    right: 590px;
+    bottom: 150px;  
+}
+
+#button{
+    background-color: var(--lichtgrijs);
+    color:var(--zwart);
+    border: none;
+    border-radius: .3em;
+    height: 3em;
+    width: 4.5em;
+    position:absolute; 
+    left: 25px;
+    top: 25px;  
+}
+
+#verassing{
+    background-color: var(--lichtgrijs);
+    color:var(--zwart);
+    border: none;
+    border-radius: .3em;
+    height: 3em;
+    width: 5.5em;
+    position:absolute; 
+    left: 200px;
+    bottom: 150px;  
+}
+
+#naam{
+    position:absolute; 
+    left: 200px;
+    bottom: 280px; 
+    font-family: monospace;
+}
+
+#vraagteken{
+    height: 10vh;
+    position:absolute; 
+    left: 200px;
+    bottom: 200px;   
+}
+
+#bronvermelding{
+    background-color:var(--wit);
+    color: var(--lichtgrijs);
+}
+
+.bron{
+    position: absolute;
+    left: 200px;
+    bottom: -40px;
+}
+
+#bloembeslag{
+    height: 10vh;
+    position: absolute;
+    left: 525px;
+    bottom: 168px;
+}
+
+#melkbeslag{
+    height: 8vh;
+    position: absolute;
+    left: 570px;
+    bottom: 180px;
+}
+
+#eibeslag{
+    height: 12vh;
+    position: absolute;
+    left: 570px;
+    bottom: 165px;  
+}
+
+#boterbeslag{
+    height: 8vh;
+    position: absolute;
+    left: 550px;
+    bottom: 160px;  
+}
+
+.hidden{
+    visibility: hidden;
+}
+

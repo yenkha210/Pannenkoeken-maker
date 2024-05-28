@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pannenkoeken maker</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="box">
+            <main>
+                    <h1>Bord vullen</h1>
+                    <h2>Klik en sleep de pannenkoeken naar het bord</h2>
+
+                    <img id="pan" src="images/pan.png" alt="pan">
+                    <img id="rozebord" src="images/rozebord.png" alt="rozebord">
+
+                    <!-- images waarmee geïnteracteerd wordt (sleepbaar) -->
+
+                    <img id="pannenkoek1" src="images/pannenkoek.png" alt="pannenkoek1">
+                    <img id="pannenkoek2" src="images/pannenkoek.png" alt="pannenkoek2">
+                    <img id="pannenkoek3" src="images/pannenkoek.png" alt="pannenkoek3">
+
+                   <!-- images die tevoorschijn komen nadat er is gesleept -->
+
+                    <img id="pannenkoek4" src="images/pannenkoek.png" alt="pannenkoek4" hidden>
+                    <img id="pannenkoek5" src="images/pannenkoek.png" alt="pannenkoek5" hidden>
+                    <img id="pannenkoek6" src="images/pannenkoek.png" alt="pannenkoek6" hidden>
+
+                    <!-- audiofragmenten die worden afgespeeld tijdens de interactie -->
+
+                    <audio src="audio/bak_geluid.wav" id="bak"></audio>
+                    <audio src="audio/plop_geluid.wav" id="plop"></audio>
+                    <audio src="audio/achtergrondmuziek.mp3" id="achtergrondmuziek"></audio>
+                    
+                     <!-- button om de muziek aan of uit te zetten -->
+
+                    <button id="button">Muziek</button>
+                    
+                    <!-- link naar de volgende pagina -->
+
+                    <a id="laterverschijnen" href="versieren.html" hidden>Versieren</a>
+            </main>
+    </div>
+
+    <!-- class "hidden" om images te verstoppen -->
+
+    <div class="hidden"></div>
+
+        <script src="script/opscheppen-pan.js"></script>
+    
+</body>
+</html>
